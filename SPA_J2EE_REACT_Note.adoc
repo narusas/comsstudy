@@ -116,6 +116,7 @@ browserHisotry 지원 여부에 따라 해시 기반 URL일지 일반 URL일지 
 
 ####  Servlet url-pattern ####
 서블릿의  URL-Pattern 은 딱 3가지 형태만 지원하는데
+
   * Exact Pattern:  정확히 동일한 이름만 지원   ex: /folder/abc.html /folder/abc
   * Directory Pattern: 특정 디렉토리 이하  ex: /folder/abc/*
   * Extension Pattern:  특정 확장자 *.js, *.reports
