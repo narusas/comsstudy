@@ -225,7 +225,7 @@ Transpanent Layer, Modal Layer Progress Bar등 여러 수단을 통해 화면 �
 
 이 문제는 Client에서만 막을수 있는 문제는 아니므로 Server Side의 Double Submit을 막을 방법이 필요하다.
 
-보통 많이 사용하는 편집페이지에 들어갈때 세션에 토큰을 발행하고, 저장 URL에서 토큰을 소비하는 방식인 Submit Token는 여기서 사용할수 없다.
+보통 많이 사용하는 편집페이지에 들어갈때 세션에 토큰을 발행하고, 저장 URL에서 토큰을 소비하는 방식인 Submit synchronization Token는 여기서 사용할수 없다.
 편집페이지에 들어가도 서버에 요청이 오는게  없기 때문이다.
 
 편집용 토큰을 발행하는 API를 제공하여 이를 이용하는 것도 방법일듯. 그런데 이건 좀 너무 오버 엔지니어링 같기도 하고..
